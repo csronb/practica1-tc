@@ -1,0 +1,4 @@
+* 8b073e5 feat(app): desarrolla modulo puro lenguajes.py e interfaz web en Flet (Operaciones 1 y 2)
+* 7046499 feat(jflap): implementa 60 automatas finitos (.jff) de Listas 2 y 3 con tablas y simulaciones
+* ed3038b docs(teoria): redacta investigacion de entorno, Unidad Tematica I y estado del arte (5 articulos)
+* 5534634 chore(entorno): configura repositorio inicial, Dockerfile y compose.yml para py311, py312 y py313
