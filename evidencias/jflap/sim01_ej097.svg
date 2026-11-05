@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <!-- Ventana estilo JFLAP 7.1 -->
+  <rect x="0" y="0" width="960" height="520" rx="6" fill="#ece9d8" stroke="#0054e3" stroke-width="3"/>
+  <rect x="0" y="0" width="960" height="32" rx="4" fill="#0054e3"/>
+  <text x="14" y="21" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">JFLAP 7.1 — Step-by-Step Simulation: ej097_longitud_multiplo_3.jff (Ej. 97: Longitud múltiplo de 3)</text>
+  <rect x="12" y="42" width="936" height="285" fill="#ffffff" stroke="#aca899" stroke-width="1"/>
+  <path d="M 136.0 195.0 Q 294.0 211.0 452.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="294.0" y="206.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0,1,2</text>
+  <path d="M 506.0 195.0 Q 664.0 211.0 822.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="664.0" y="206.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0,1,2</text>
+  <path d="M 824.0 195.0 Q 481.0 229.0 138.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="481.0" y="224.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0,1,2</text>
+  <polygon points="64.0,183.0 64.0,207.0 83.0,195.0" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="110.0" cy="195.0" r="25" fill="#b5e6b5" stroke="#1b5e20" stroke-width="2"/>
+  <circle cx="110.0" cy="195.0" r="20" fill="none" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="110.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q0</text>
+  <circle cx="480.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="480.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q1</text>
+  <circle cx="850.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="850.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q2</text>
+  <rect x="12" y="338" width="936" height="122" fill="#f7f6f2" stroke="#aca899" stroke-width="1"/>
+  <rect x="22" y="348" width="916" height="32" rx="4" fill="#d4edda" stroke="#155724" stroke-width="1"/>
+  <text x="34" y="369" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">Input: "012102"   |   Result: ACCEPTED (Cadena Aceptada)   |   Final State: q0</text>
+  <text x="26" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">Secuencia de configuraciones (Step-by-Step Trace):</text>
+  <text x="26" y="425" font-family="Consolas, monospace" font-size="12" fill="#111111">Paso 0: (q0, leido='λ', resta='012102')  →  Paso 1: (q1, leido='0', resta='12102')  →  Paso 2: (q2, leido='01', resta='2102')  →  Paso 3: (q0, leido='012', resta='102')</text>
+  <text x="26" y="446" font-family="Consolas, monospace" font-size="12" fill="#111111">→  Paso 4: (q1, leido='0121', resta='02')  →  Paso 5: (q2, leido='01210', resta='2')  →  Paso 6: (q0, leido='012102', resta='λ')</text>
+  <rect x="22" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="66" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Step</text>
+  <rect x="120" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="164" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Reset</text>
+  <rect x="218" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="262" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Freeze</text>
+  <rect x="316" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="360" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Thaw</text>
+  <rect x="414" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="458" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Trace</text>
+  <rect x="512" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="556" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Remove</text>
+</svg>

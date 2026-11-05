@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <!-- Ventana estilo JFLAP 7.1 -->
+  <rect x="0" y="0" width="960" height="520" rx="6" fill="#ece9d8" stroke="#0054e3" stroke-width="3"/>
+  <rect x="0" y="0" width="960" height="32" rx="4" fill="#0054e3"/>
+  <text x="14" y="21" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">JFLAP 7.1 — Step-by-Step Simulation: ej135_bm_a_bn.jff (Ej. 135: L = {b^m a b^n : m,n > 0})</text>
+  <rect x="12" y="42" width="936" height="285" fill="#ffffff" stroke="#aca899" stroke-width="1"/>
+  <path d="M 136.0 195.0 Q 479.0 211.0 822.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="479.0" y="206.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">a</text>
+  <path d="M 135.5 199.8 Q 198.5 228.0 267.5 224.8" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="198.5" y="223.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">b</text>
+  <path d="M 320.5 225.2 Q 389.5 228.4 452.5 200.2" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="389.5" y="223.4" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">a</text>
+  <path d="M 283.0 208.0 C 265.0 155.0, 325.0 155.0, 307.0 208.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="295.0" y="164.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#111111">b</text>
+  <path d="M 506.0 195.0 Q 664.0 211.0 822.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="664.0" y="206.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">a</text>
+  <path d="M 505.5 199.8 Q 568.5 228.0 637.5 224.8" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="568.5" y="223.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">b</text>
+  <path d="M 690.5 225.2 Q 759.5 228.4 822.5 200.2" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="759.5" y="223.4" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">a</text>
+  <path d="M 653.0 208.0 C 635.0 155.0, 695.0 155.0, 677.0 208.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="665.0" y="164.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#111111">b</text>
+  <path d="M 838.0 173.0 C 820.0 120.0, 880.0 120.0, 862.0 173.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="850.0" y="129.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#111111">a,b</text>
+  <polygon points="64.0,183.0 64.0,207.0 83.0,195.0" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="110.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="110.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q0_ini</text>
+  <circle cx="295.0" cy="230.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="295.0" y="234.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q1_bm</text>
+  <circle cx="480.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="480.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q2_bma</text>
+  <circle cx="665.0" cy="230.0" r="25" fill="#b5e6b5" stroke="#1b5e20" stroke-width="2"/>
+  <circle cx="665.0" cy="230.0" r="20" fill="none" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="665.0" y="234.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q3_bmabn</text>
+  <circle cx="850.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="850.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q4_pozo</text>
+  <rect x="12" y="338" width="936" height="122" fill="#f7f6f2" stroke="#aca899" stroke-width="1"/>
+  <rect x="22" y="348" width="916" height="32" rx="4" fill="#d4edda" stroke="#155724" stroke-width="1"/>
+  <text x="34" y="369" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">Input: "bbabb"   |   Result: ACCEPTED (Cadena Aceptada)   |   Final State: q3_bmabn</text>
+  <text x="26" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">Secuencia de configuraciones (Step-by-Step Trace):</text>
+  <text x="26" y="425" font-family="Consolas, monospace" font-size="12" fill="#111111">Paso 0: (q0_ini, leido='λ', resta='bbabb')  →  Paso 1: (q1_bm, leido='b', resta='babb')  →  Paso 2: (q1_bm, leido='bb', resta='abb')  →  Paso 3: (q2_bma, leido='bba', resta='bb')</text>
+  <text x="26" y="446" font-family="Consolas, monospace" font-size="12" fill="#111111">→  Paso 4: (q3_bmabn, leido='bbab', resta='b')  →  Paso 5: (q3_bmabn, leido='bbabb', resta='λ')</text>
+  <rect x="22" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="66" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Step</text>
+  <rect x="120" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="164" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Reset</text>
+  <rect x="218" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="262" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Freeze</text>
+  <rect x="316" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="360" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Thaw</text>
+  <rect x="414" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="458" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Trace</text>
+  <rect x="512" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="556" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Remove</text>
+</svg>

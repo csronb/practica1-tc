@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <!-- Ventana estilo JFLAP 7.1 -->
+  <rect x="0" y="0" width="960" height="520" rx="6" fill="#ece9d8" stroke="#0054e3" stroke-width="3"/>
+  <rect x="0" y="0" width="960" height="32" rx="4" fill="#0054e3"/>
+  <text x="14" y="21" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">JFLAP 7.1 — Step-by-Step Simulation: ej147_binario_izq_a_der_mult6.jff (Ej. 147: Binario múltiplo de 6)</text>
+  <rect x="12" y="42" width="936" height="285" fill="#ffffff" stroke="#aca899" stroke-width="1"/>
+  <path d="M 98.0 173.0 C 80.0 120.0, 140.0 120.0, 122.0 173.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="110.0" y="129.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#111111">0</text>
+  <path d="M 135.3 201.0 Q 179.3 227.8 230.8 223.6" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="179.3" y="222.8" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">1</text>
+  <path d="M 283.3 224.0 Q 334.7 228.3 378.8 201.4" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="334.7" y="223.3" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0</text>
+  <path d="M 284.0 230.0 Q 405.0 246.0 526.0 230.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="405.0" y="241.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">1</text>
+  <path d="M 432.0 195.0 Q 553.0 211.0 674.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="553.0" y="206.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0</text>
+  <path d="M 431.9 197.0 Q 625.7 228.4 822.1 227.8" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="625.7" y="223.4" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">1</text>
+  <path d="M 528.1 228.0 Q 330.3 246.5 137.9 197.2" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="330.3" y="241.5" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0</text>
+  <path d="M 528.0 230.0 Q 407.0 264.0 286.0 230.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="407.0" y="259.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">1</text>
+  <path d="M 676.0 195.0 Q 555.0 229.0 434.0 195.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="555.0" y="224.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0</text>
+  <path d="M 676.7 201.0 Q 636.8 245.4 581.2 223.6" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="636.8" y="240.4" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">1</text>
+  <path d="M 824.7 224.0 Q 769.1 245.8 729.2 201.4" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="769.1" y="240.8" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#003399">0</text>
+  <path d="M 838.0 208.0 C 820.0 155.0, 880.0 155.0, 862.0 208.0" fill="none" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="850.0" y="164.0" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#111111">1</text>
+  <polygon points="64.0,183.0 64.0,207.0 83.0,195.0" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="110.0" cy="195.0" r="25" fill="#b5e6b5" stroke="#1b5e20" stroke-width="2"/>
+  <circle cx="110.0" cy="195.0" r="20" fill="none" stroke="#1b5e20" stroke-width="1.5"/>
+  <text x="110.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q0_mod0</text>
+  <circle cx="258.0" cy="230.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="258.0" y="234.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q1_mod1</text>
+  <circle cx="406.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="406.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q2_mod2</text>
+  <circle cx="554.0" cy="230.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="554.0" y="234.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q3_mod3</text>
+  <circle cx="702.0" cy="195.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="702.0" y="199.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q4_mod4</text>
+  <circle cx="850.0" cy="230.0" r="25" fill="#fff9c4" stroke="#333333" stroke-width="2"/>
+  <text x="850.0" y="234.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">q5_mod5</text>
+  <rect x="12" y="338" width="936" height="122" fill="#f7f6f2" stroke="#aca899" stroke-width="1"/>
+  <rect x="22" y="348" width="916" height="32" rx="4" fill="#d4edda" stroke="#155724" stroke-width="1"/>
+  <text x="34" y="369" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#155724">Input: "1100"   |   Result: ACCEPTED (Cadena Aceptada)   |   Final State: q0_mod0</text>
+  <text x="26" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#222222">Secuencia de configuraciones (Step-by-Step Trace):</text>
+  <text x="26" y="425" font-family="Consolas, monospace" font-size="12" fill="#111111">Paso 0: (q0_mod0, leido='λ', resta='1100')  →  Paso 1: (q1_mod1, leido='1', resta='100')  →  Paso 2: (q3_mod3, leido='11', resta='00')  →  Paso 3: (q0_mod0, leido='110', resta='0')</text>
+  <text x="26" y="446" font-family="Consolas, monospace" font-size="12" fill="#111111">→  Paso 4: (q0_mod0, leido='1100', resta='λ')</text>
+  <rect x="22" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="66" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Step</text>
+  <rect x="120" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="164" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Reset</text>
+  <rect x="218" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="262" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Freeze</text>
+  <rect x="316" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="360" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Thaw</text>
+  <rect x="414" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="458" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Trace</text>
+  <rect x="512" y="472" width="88" height="28" rx="3" fill="#e1dfd6" stroke="#888888" stroke-width="1"/>
+  <text x="556" y="490" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111111">Remove</text>
+</svg>
