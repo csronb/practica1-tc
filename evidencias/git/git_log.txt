@@ -1,3 +1,4 @@
+* 6c7cf00 docs(evidencias): agrega evidencias de ejecucion de contenedores, interfaz Flet y suite pytest
 * 8b073e5 feat(app): desarrolla modulo puro lenguajes.py e interfaz web en Flet (Operaciones 1 y 2)
 * 7046499 feat(jflap): implementa 60 automatas finitos (.jff) de Listas 2 y 3 con tablas y simulaciones
 * ed3038b docs(teoria): redacta investigacion de entorno, Unidad Tematica I y estado del arte (5 articulos)
